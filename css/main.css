@@ -8,6 +8,7 @@ nav { padding: 10px 0; }
 h1, h2, h3, h4, h5, h6 { margin: 0; }
 /***************************************/
 
+/* Container Class */
 .container {
     margin: 0 auto;
     max-width: 1170px;
@@ -17,6 +18,7 @@ section {
     display: flex;
 }
 
+/* Flex Utilities */
 .flex {
     display: flex;
 }
@@ -41,6 +43,7 @@ section {
     justify-content: space-between;
 }
 
+/* Buttons */
 .btn {
     cursor: pointer;
     border-width: 0;
@@ -57,4 +60,13 @@ section {
 .btn-primary {
     color: white;
     background-color: #364147;
+}
+
+/* Form Controls */
+.form-control {
+    display: block;
+    padding: 6px 12px;
+    border: 1px solid #a0a0a0;
+    color: #8598a2;
+    line-height: 1.4;
 }
